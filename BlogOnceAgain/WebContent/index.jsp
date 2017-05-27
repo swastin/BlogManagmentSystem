@@ -26,7 +26,6 @@
     </div>
   </div>
 </div>
-
 </body>
 <jsp:include page="/partials/foot.jsp"></jsp:include>
 </html>
