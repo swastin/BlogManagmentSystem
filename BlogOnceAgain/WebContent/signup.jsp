@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-
+<jsp:include page="partials/head.jsp"></jsp:include>
 
 <body class="signup-page">
     <div class="signup-box">
@@ -59,7 +59,7 @@
             </div>
         </div>
     </div>
-
+<jsp:include page="partials/foot.jsp"></jsp:include>
  
 </body>
 

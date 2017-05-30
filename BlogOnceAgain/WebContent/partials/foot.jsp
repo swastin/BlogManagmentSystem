@@ -4,10 +4,8 @@
    <!-- Jquery Core Js -->
     <!-- Waves Effect Plugin Js -->
     <script src="../../plugins/node-waves/waves.js"></script>
-
     <!-- Validation Plugin Js -->
     <script src="../../plugins/jquery-validation/jquery.validate.js"></script>
-
-    <!-- Custom Js -->
     <script src="../../js/admin.js"></script>
     <script src="../../js/pages/examples/sign-up.js"></script>
+    <script src="../../js/pages/examples/sign-in.js"></script>

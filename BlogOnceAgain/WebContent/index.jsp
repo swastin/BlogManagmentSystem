@@ -1,78 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Sign In | Bootstrap Based Admin Template - Material Design</title>
-    <!-- Favicon-->
-    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-
-    <!-- Bootstrap Core Css -->
-    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Waves Effect Css -->
-    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
-
-    <!-- Animation Css -->
-    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
-
-    <!-- Custom Css -->
-    <link href="css/style.css" rel="stylesheet">
-	<style>
-	
-	#banner {
-      background: url('images/P1.png') 10 10 repeat;
-      -webkit-animation: animate_background 2s linear 0s infinite;
-    -moz-animation: animate_background 2s linear 0s infinite;
-    -o-animation: animate_background  2s linear 0s infinite;
-    animation: animate_background 2s linear 0s infinite;
-    animation-direction: reverse;
-	-timing-animationfunction: ease-in;
-
-}
-
-@-webkit-keyframes animate_background { 
-    from { 
-        background-position: 0 0;
-    } 
-    to { 
-        background-position: 0 200px;
-    } 
-}
-@-moz-keyframes animate_background { 
-    from { 
-        background-position: 0 0;
-    } 
-    to { 
-        background-position: 0 200px;
-    } 
-}
-@-o-keyframes animate_background { 
-    from { 
-        background-position: 0 0;
-    } 
-    to { 
-        background-position: 0 200px;
-    } 
-}
-@keyframes animate_background { 
-    from { 
-        background-position: 0 0;
-    } 
-    to { 
-        background-position: 0 200px;
-    } 
-}
-	
-	
-	
-	</style>
-</head>
+<jsp:include page="partials/head.jsp"></jsp:include>
 
 <body class="login-page" style="background-image: url('images/p1.png');">
     <div class="login-box">
@@ -121,22 +49,8 @@
             </div>
         </div>
     </div>
-
-    <!-- Jquery Core Js -->
-    <script src="../../plugins/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core Js -->
-    <script src="../../plugins/bootstrap/js/bootstrap.js"></script>
-
-    <!-- Waves Effect Plugin Js -->
-    <script src="../../plugins/node-waves/waves.js"></script>
-
-    <!-- Validation Plugin Js -->
-    <script src="../../plugins/jquery-validation/jquery.validate.js"></script>
-
-    <!-- Custom Js -->
-    <script src="../../js/admin.js"></script>
-    <script src="../../js/pages/examples/sign-in.js"></script>
+<jsp:include page="partials/foot.jsp"></jsp:include>
+   
 </body>
 
 </html>
